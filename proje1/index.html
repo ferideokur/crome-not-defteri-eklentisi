@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Not Defterim</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            padding: 15px;
+            background-color: #f9f9f9;
+        }
+        textarea {
+            width: 100%;
+            height: 150px; /* Yüksekliği biraz düşürdük */
+            margin-bottom: 15px;
+            border: 2px solid #e91e63; /* Pembe çerçeve */
+            border-radius: 10px; /* Daha yuvarlak köşeler */
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #e91e63; /* Pembe buton */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #d81b60; /* Butona tıklandığında biraz daha koyu pembe */
+        }
+        h2 {
+            color: #e91e63; /* Başlık da pembe */
+        }
+    </style>
+</head>
+<body>
+    <h2>Kişisel Not Defterim</h2>
+    <textarea id="notAlani" placeholder="Buraya yazın..."></textarea>
+    <button id="kaydetButon">Notu Kaydet</button>
+    <button id="indirButon">Notu İndir</button>
+
+    <script src="main.js"></script>
+</body>
+</html>

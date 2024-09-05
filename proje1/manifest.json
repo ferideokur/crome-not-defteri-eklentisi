@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Kişisel Not Defterim",
+  "version": "1.1",
+  "description": "Tarayıcıda gezinirken pratik bir not defteri kullanın.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": {
+      "16": "images/kendi-simgem-16.png",
+      "48": "images/kendi-simgem-48.png",
+      "128": "images/kendi-simgem-128.png"
+    }
+  }
+}
